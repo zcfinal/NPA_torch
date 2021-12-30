@@ -55,6 +55,7 @@ def get_embedding(FILE_PATH):
     for line in f:
         values = line.split()
         word = values[0]
+        print(word,values)
         coefs = np.array(values[1:], dtype='float32')
         embedding_word[word] = coefs
         count += 1
