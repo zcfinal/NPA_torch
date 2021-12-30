@@ -36,7 +36,7 @@ def arg_parse():
                         help='path to valid dataset')
     parser.add_argument('--test_behavior_data', type=str, metavar='PATH',
                         help='path to test dataset')
-    parser.add_argument('--word_embedding_path',type=str,metavar='PATH',default='../../data/glove.42B.300d.txt',
+    parser.add_argument('--word_embedding_path',type=str,metavar='PATH',default='../../data/glove.840b.300d.txt',
                         help='word embedding path')
     parser.add_argument('-re', '--reuse', default='', type=str, metavar='PATH',
                         help='path to old model (default: none)')
